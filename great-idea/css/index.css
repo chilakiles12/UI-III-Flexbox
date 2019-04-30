@@ -155,10 +155,11 @@ h5 {
   margin: 0 auto;
 }
 
-/* header */
-
+/* header not wrapping */
+header {
+  display: flex;
+}
 header nav {
-  display: inline-block;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -188,9 +189,10 @@ header .logo {
 }
 
 /* cta */
-
+.cta {
+  display: flex;
+}
 .cta .cta-text {
-  display: inline-block;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
@@ -214,23 +216,26 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
+  display: flex;
   margin-top: 69px;
 }
 
 .main-content {
+  display: flex;
+  flex-direction: column;
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
 
 .main-content .top-content {
+  display: flex;
+  flex-direction: row;
   padding: 0 10px;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
   margin-right: 34px;
 }
 
@@ -243,13 +248,13 @@ header .logo {
 }
 
 .main-content .bottom-content {
+  display: flex;
   margin-top: 37px;
   padding: 0 10px;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
   margin-right: 12px;
 }
 
