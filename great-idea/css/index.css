@@ -168,6 +168,7 @@ header nav {
 header nav a {
   margin-right: 65px;
   font-size: 14px;
+  font-weight: bold;
   color: gray;
   text-decoration: none;
 }
@@ -276,4 +277,30 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+/*services.html*/
+.main-content .top-services-content .text-content {
+  width: auto;
+  margin-right: 34px;
+}
+.main-content .bottom-services-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 37px;
+  padding: 0 10px;
+}
+.main-content .bottom-services-content .text-content {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column wrap;
+  width: 350px;
+  margin: 30px;
+  padding: 15px;
+}
+.text-content button {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin: 20px 0;
 }
